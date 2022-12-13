@@ -68,10 +68,11 @@ html {
 
 .container-header header nav ul li a:hover {
   color: brown;
+  transform: rotateY(360deg);
 }
 
 .btn-responsive {
-  background-color: #1cb698;
+  background-color: brown;
   color: white;
   padding: 5px 10px;
   border-radius: 5px;
@@ -108,7 +109,7 @@ html {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 300px;
+  width: 400px;
   background: #fff;
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
@@ -165,7 +166,7 @@ html {
   text-align: center;
   color: rgb(148, 147, 147);
   margin: 0 10px;
-  font-size: 18px;
+  font-size: 19px;
   transition: all 0.7s;
   line-height: 42px;
 }
